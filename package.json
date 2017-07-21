@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "ts-babel-node": "ts-babel-node $NODE_DEBUG_OPTION index.ts",
+    "ts-node": "ts-node $NODE_DEBUG_OPTION index.ts",
+    "register": "node $NODE_DEBUG_OPTION -r ts-babel-node/register index.ts"
+  },
   "dependencies": {
     "@types/node": "^8.0.14",
-    "ts-babel-node": "^1.1.1",
-    "ts-node": "3.0.6",
+    "merge-source-map": "^1.0.4",
+    "ts-babel-node": "https://github.com/dan-j/ts-babel-node.git",
+    "ts-node": "3.2.1",
     "typescript": "2.4.0"
   }
 }
