@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "outDir": "build",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
+  }
+}
